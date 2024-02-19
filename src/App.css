@@ -1,0 +1,98 @@
+/* inter font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/* mulish font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your styles.css or styles.scss */
+
+.alice-carousel__dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 89%;
+  width: 39%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.alice-carousel__dots-item.__active {
+  background-color: #853036 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.alice-carousel__dots-item {
+  background-color: #d9d9d9 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+.box-shadow {
+  box-shadow: 0 4px 12px 2px rgba(0, 0, 0, 0.1);
+}
+
+.line-clamp-9 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 9; /* Number of lines to show */
+}
+
+@media screen and (max-width: 600px) {
+  .line-clamp-9 {
+    -webkit-line-clamp: 4; /* Adjust the number of lines for small screens */
+  }
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('/fonts/SourceSerifPro-SemiBoldIt.otf') format('opentype');
+}
+
+.active {
+  border-bottom: 2px solid #853036;
+}
+
+.perfect-scrollbar.ps-container .ps-scrollbar-y-rail > .ps-scrollbar-y {
+  background-color: red !important;
+}
+.rotate:hover {
+  transform: rotate(360deg);
+  transition: 0.5s ease-in-out;
+}
+
+/* Custom CSS */
+
+.involvement-timeline:nth-child(even) .item {
+  @media (min-width: 768px) {
+    flex-flow: row-reverse;
+  }
+}
+.involvement-timeline:nth-child(even) .item .border-r-2 {
+  @media (min-width: 768px) {
+    flex-flow: row-reverse;
+    border-left: 1px solid #e1e1e3;
+    border-right: none;
+  }
+}
+.involvement-timeline:nth-child(odd) .line {
+  @media (min-width: 768px) {
+    position: absolute;
+    top: -5rem;
+  }
+}
+
+.involvement-timeline:nth-child(odd) .item {
+  @media (min-width: 768px) {
+    position: absolute;
+    top: -15rem;
+  }
+}
+.involvement-timeline:nth-child(odd) .item .border-r-2 {
+  @media (min-width: 768px) {
+    border-right: 1px solid #e1e1e3;
+  }
+}
