@@ -15,7 +15,10 @@ const Navbar: React.FC = () => {
   return (
     <div className="py-5 flex flex-wrap md:flex-nowrap justify-between md:justify-around px-8 md:px-28 lg:px-32 xl:px-48 sticky top-0 z-30 items-center bg-white shadow-lg min-h-[12vh] font-mulish">
       <Link to="/">
-        <img src="/images/common/logo.png" alt="logo" className="w-12 h-6" />
+        {/* <img src="/images/common/logo.png" alt="logo" className="w-12 h-6" /> */}
+        <h1 className="font-bold text-3xl text-primary-headingColor font-mono">
+          KT
+        </h1>
       </Link>
       <div className="cursor-pointer md:hidden" onClick={handleMenuClick}>
         {isOpen ? (

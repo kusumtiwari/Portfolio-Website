@@ -73,7 +73,7 @@ const ContactPage: React.FC = () => {
             <div className="text-white mt-4">
               <p className="text-xs md:text-lg mb-2">You can mail me at</p>
               <h1 className="text-lg md:text-2xl lg:3xl border-b-2 py-2 font-bold">
-                mail@amrityonjan.com
+                kusumtiwari024@ gmail.com
               </h1>
             </div>
           </div>
