@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <div className="py-5 flex flex-wrap md:flex-nowrap justify-between md:justify-around px-8 md:px-20 lg:px-28 xl:px-36 sticky top-0 z-30 items-center bg-white shadow-lg min-h-[12vh] font-mulish">
+    <div className="py-5 flex flex-wrap md:flex-nowrap justify-between md:justify-around px-8 md:px-28 lg:px-32 xl:px-48 sticky top-0 z-30 items-center bg-white shadow-lg min-h-[12vh] font-mulish">
       <Link to="/">
         <img src="/images/common/logo.png" alt="logo" className="w-12 h-6" />
       </Link>
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           <Menu className="h-8 w-8 transition duration-500 ease-in-out opacity-100 hover:opacity-60" />
         )}
       </div>
-      <ul className="hidden md:flex flex-1 items-center ml-16 lg:ml-26 xl:ml-36">
+      <ul className="hidden md:flex flex-1 items-center ml-28 lg:ml-42 xl:ml-64">
         <li
           className="cursor-pointer font-semibold text-base hover:text-primary-titleColor rounded py-4 lg:py-2 px-2 mr-4 lg:mr-10 xl:mr-16 hover:text-primary-headingColor transition duration-300 ease-in-out"
           onClick={handleMenuClick}
@@ -43,12 +43,7 @@ const Navbar: React.FC = () => {
         >
           <NavLink to="/initiatives">Initiatives</NavLink>
         </li>
-        <li
-          className="cursor-pointer font-semibold text-base hover:text-primary-titleColor rounded py-4 lg:py-2 px-2 md:mr-4 lg:mr-10 xl:mr-16 hover:text-primary-headingColor transition duration-300 ease-in-out"
-          onClick={handleMenuClick}
-        >
-          <NavLink to="/involvement">Involvement</NavLink>
-        </li>
+
         <li
           className="cursor-pointer font-semibold text-base hover:text-primary-titleColor rounded py-4 lg:py-2 px-2 md:mr-4 lg:mr-10 xl:mr-16 hover:text-primary-headingColor transition duration-300 ease-in-out"
           onClick={handleMenuClick}

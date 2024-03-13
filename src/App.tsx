@@ -4,8 +4,6 @@ import LandingPage from "./pages/LandingPage";
 import AboutPage from "./pages/AboutPage";
 import InitiativesPage from "./pages/InitiativesPage";
 import ProjectDetailsPage from "./components/initiatives/ProjectDetailsPage";
-import InvolvementPage from "./pages/InvolvementPage";
-import InvolvementDetailPage from "./pages/InvolvementDetailPage";
 
 import "./App.css";
 import LoadingSpinner from "./components/common/LoadingSpinner";
@@ -14,9 +12,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import ClientLayout from "./layout/ClientLayout";
 import ContactPage from "./pages/ContactPage";
-
-import PublicationPage from "./pages/PublicationPage";
-import PublicationDetailPage from "./pages/PublicationDetailPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -45,14 +40,7 @@ function App() {
           path: "/contact",
           element: <ContactPage />,
         },
-        {
-          path: "/involvement",
-          element: <InvolvementPage />,
-        },
-        {
-          path: "/involvement/details/:id",
-          element: <InvolvementDetailPage />,
-        },
+        
       ],
     },
     {

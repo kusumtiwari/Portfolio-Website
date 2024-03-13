@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import { FileCheck, HandCoins } from "lucide-react";
 import { RxDoubleArrowRight } from "react-icons/rx";
 
