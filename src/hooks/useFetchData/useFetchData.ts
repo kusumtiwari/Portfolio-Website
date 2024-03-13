@@ -27,7 +27,8 @@ export const useFetchData = ({ endpoint }: FetchDataProps): FetchDataResult => {
                 throw new Error(`Unexpected status code: ${response.status}`);
             }
         } catch (error) {
-            handleRequestError(error);
+            console.log('its error')
+            // handleRequestError(error);
         } finally {
             setLoading(false);
         }

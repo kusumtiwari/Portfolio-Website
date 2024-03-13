@@ -19,142 +19,142 @@ interface categoriesDetails {
   organization: string | null;
 }
 
-interface tabs {
-  category: string;
-  id: number;
-}
+// interface tabs {
+//   category: string;
+//   id: number;
+// }
 
-const myTabs: tabs[] = [
-  {
-    category: "Community Development",
-    id: 1,
-  },
-  {
-    category: "Language and Linguistics",
-    id: 2,
-  },
-  {
-    category: "Teaching",
-    id: 3,
-  },
-];
-const myCategoriesDetails: categoriesDetails[] = [
-  {
-    id: 1,
-    logo: "/images/involveLogo1.png",
-    position: "Project Director",
-    startDate: "2013",
-    endDate: "2014",
-    title: "Ethno-linguistic Survey of Nepal",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
-    image: "/images/InvolvementImg.png",
-    category: "Community Development",
-    organization: null,
-  },
+// const myTabs: tabs[] = [
+//   {
+//     category: "Community Development",
+//     id: 1,
+//   },
+//   {
+//     category: "Language and Linguistics",
+//     id: 2,
+//   },
+//   {
+//     category: "Teaching",
+//     id: 3,
+//   },
+// ];
+// const myCategoriesDetails: categoriesDetails[] = [
+//   {
+//     id: 1,
+//     logo: "/images/involveLogo1.png",
+//     position: "Project Director",
+//     startDate: "2013",
+//     endDate: "2014",
+//     title: "Ethno-linguistic Survey of Nepal",
+//     description:
+//       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
+//     image: "/images/InvolvementImg.png",
+//     category: "Community Development",
+//     organization: null,
+//   },
 
-  {
-    id: 2,
-    logo: "/images/involveLogo1.png",
-    position: "Project Director",
-    startDate: "April 2013",
-    endDate: "Sept 2014",
-    title: "Ethno-linguistic Survey of Nepal",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
-    image: "/images/InvolvementImg.png",
-    category: "Language and Linguistics",
-    organization: null,
-  },
-  {
-    id: 3,
-    logo: null,
-    position: "Vice-Principle",
-    startDate: "April 2013",
-    endDate: "Sept 2014",
-    title: null,
-    description: null,
-    image: null,
-    category: "Teaching",
-    organization: "Amrit Primary Boarding School, Mhepi, Kathmandu",
-  },
-  {
-    id: 4,
-    logo: null,
-    position: "Vice-Principle",
-    startDate: "April 2013",
-    endDate: "Sept 2014",
-    title: null,
-    description: null,
-    image: null,
-    category: "Teaching",
-    organization: "Amrit Primary Boarding School, Mhepi, Kathmandu",
-  },
-  {
-    id: 5,
-    logo: null,
-    position: "Vice-Principle",
-    startDate: "April 2013",
-    endDate: "Sept 2014",
-    title: null,
-    description: null,
-    image: null,
-    category: "Teaching",
-    organization: "Amrit Primary Boarding School, Mhepi, Kathmandu",
-  },
-  {
-    id: 6,
-    logo: "/images/involveLogo1.png",
-    position: "Project Director",
-    startDate: "April 2013",
-    endDate: "Sept 2014",
-    title: "Ethno-linguistic Survey of Nepal",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
-    image: "/images/InvolvementImg.png",
-    category: "Language and Linguistics",
-    organization: null,
-  },
-  {
-    id: 7,
-    logo: "/images/involveLogo1.png",
-    position: "Project Director",
-    startDate: "2013",
-    endDate: "2014",
-    title: "Ethno-linguistic Survey of Nepal",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
-    image: "/images/InvolvementImg.png",
-    category: "Community Development",
-    organization: null,
-  },
-  {
-    id: 8,
-    logo: "/images/involveLogo1.png",
-    position: "Project Director",
-    startDate: "2013",
-    endDate: "2014",
-    title: "Ethno-linguistic Survey of Nepal",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
-    image: "/images/InvolvementImg.png",
-    category: "Community Development",
-    organization: null,
-  },
-  {
-    id: 9,
-    logo: "/images/involveLogo1.png",
-    position: "Project Director",
-    startDate: "April 2013",
-    endDate: "Sept 2014",
-    title: "Ethno-linguistic Survey of Nepal",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
-    image: "/images/InvolvementImg.png",
-    category: "Language and Linguistics",
-    organization: null,
-  },
-];
+//   {
+//     id: 2,
+//     logo: "/images/involveLogo1.png",
+//     position: "Project Director",
+//     startDate: "April 2013",
+//     endDate: "Sept 2014",
+//     title: "Ethno-linguistic Survey of Nepal",
+//     description:
+//       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
+//     image: "/images/InvolvementImg.png",
+//     category: "Language and Linguistics",
+//     organization: null,
+//   },
+//   {
+//     id: 3,
+//     logo: null,
+//     position: "Vice-Principle",
+//     startDate: "April 2013",
+//     endDate: "Sept 2014",
+//     title: null,
+//     description: null,
+//     image: null,
+//     category: "Teaching",
+//     organization: "Amrit Primary Boarding School, Mhepi, Kathmandu",
+//   },
+//   {
+//     id: 4,
+//     logo: null,
+//     position: "Vice-Principle",
+//     startDate: "April 2013",
+//     endDate: "Sept 2014",
+//     title: null,
+//     description: null,
+//     image: null,
+//     category: "Teaching",
+//     organization: "Amrit Primary Boarding School, Mhepi, Kathmandu",
+//   },
+//   {
+//     id: 5,
+//     logo: null,
+//     position: "Vice-Principle",
+//     startDate: "April 2013",
+//     endDate: "Sept 2014",
+//     title: null,
+//     description: null,
+//     image: null,
+//     category: "Teaching",
+//     organization: "Amrit Primary Boarding School, Mhepi, Kathmandu",
+//   },
+//   {
+//     id: 6,
+//     logo: "/images/involveLogo1.png",
+//     position: "Project Director",
+//     startDate: "April 2013",
+//     endDate: "Sept 2014",
+//     title: "Ethno-linguistic Survey of Nepal",
+//     description:
+//       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
+//     image: "/images/InvolvementImg.png",
+//     category: "Language and Linguistics",
+//     organization: null,
+//   },
+//   {
+//     id: 7,
+//     logo: "/images/involveLogo1.png",
+//     position: "Project Director",
+//     startDate: "2013",
+//     endDate: "2014",
+//     title: "Ethno-linguistic Survey of Nepal",
+//     description:
+//       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
+//     image: "/images/InvolvementImg.png",
+//     category: "Community Development",
+//     organization: null,
+//   },
+//   {
+//     id: 8,
+//     logo: "/images/involveLogo1.png",
+//     position: "Project Director",
+//     startDate: "2013",
+//     endDate: "2014",
+//     title: "Ethno-linguistic Survey of Nepal",
+//     description:
+//       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
+//     image: "/images/InvolvementImg.png",
+//     category: "Community Development",
+//     organization: null,
+//   },
+//   {
+//     id: 9,
+//     logo: "/images/involveLogo1.png",
+//     position: "Project Director",
+//     startDate: "April 2013",
+//     endDate: "Sept 2014",
+//     title: "Ethno-linguistic Survey of Nepal",
+//     description:
+//       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit nonAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non",
+//     image: "/images/InvolvementImg.png",
+//     category: "Language and Linguistics",
+//     organization: null,
+//   },
+// ];
 const InvolvementDetailPage = () => {
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
   const dummyData = [

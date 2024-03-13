@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
           className="cursor-pointer font-semibold text-base hover:text-primary-titleColor rounded py-4 lg:py-2 px-2 md:mr-4 lg:mr-10 xl:mr-16 hover:text-primary-headingColor transition duration-300 ease-in-out"
           onClick={handleMenuClick}
         >
-          <NavLink to="/publications">Publication</NavLink>
+          Publications
         </li>
 
         <li

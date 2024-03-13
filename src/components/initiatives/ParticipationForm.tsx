@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { FileCheck, HandCoins } from "lucide-react";
-import { RxDoubleArrowLeft, RxDoubleArrowRight } from "react-icons/rx";
+import { RxDoubleArrowRight } from "react-icons/rx";
 
 interface Donars {
   name: string;
@@ -21,11 +21,11 @@ const ParticipationForm: React.FC<ParticipationFormProps> = ({
   status,
   donars,
   projectBudget,
-  donationReceived,
+
   donationPercent,
 }) => {
   console.log(status);
-  const [isChecked, setIsChecked] = useState(false);
+
   return (
     <>
       <div className="w-full overflow-hidden">

@@ -40,14 +40,7 @@ function App() {
           path: "/initiatives/:id",
           element: <ProjectDetailsPage />,
         },
-        {
-          path: "/publications",
-          element: <PublicationPage />,
-        },
-        {
-          path: "/publications/:id",
-          element: <PublicationDetailPage />,
-        },
+
         {
           path: "/contact",
           element: <ContactPage />,

@@ -14,7 +14,6 @@ interface ProjectContributionProps {
 
 const ProjectContribution: React.FC<ProjectContributionProps> = ({
   projectBudget,
-  donationReceived,
   donationPercent,
 }) => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);

@@ -34,7 +34,7 @@ const OrganizationalInitiatives: React.FC<OrganizationalInitiativesProps> = ({
       </h1>
       <div>
         {myInitiatives.length <= 2 || btnClicked
-          ? myInitiatives.map((item, index) => (
+          ? myInitiatives.map((item) => (
               <div
                 key={item.id}
                 className={`flex items-center md:h-[48vh] justify-between w-full mb-20 flex-col ${
@@ -93,7 +93,7 @@ const OrganizationalInitiatives: React.FC<OrganizationalInitiativesProps> = ({
                 </div>
               </div>
             ))
-          : myInitiatives.slice(0, 2).map((item, index) => (
+          : myInitiatives.slice(0, 2).map((item) => (
               <div
                 key={item.id}
                 className={`flex items-center md:h-[48vh] justify-between w-full mb-20 flex-col ${

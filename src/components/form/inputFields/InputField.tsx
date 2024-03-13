@@ -1,14 +1,14 @@
-import React, { forwardRef, HTMLProps, useId } from 'react';
+import { forwardRef, HTMLProps, useId } from "react";
 // import { useId } from 'react';
 
 interface InputFieldProps extends HTMLProps<HTMLInputElement> {
   label?: string;
-  type?: 'text' | 'text-area' | 'number' | 'email';
+  type?: "text" | "text-area" | "number" | "email";
   placeholder?: string;
 }
 
 const InputField = forwardRef<HTMLInputElement, InputFieldProps>(
-  ({ label, type = 'text', className = '', placeholder, ...props }, ref) => {
+  ({ label, type = "text", className = "", placeholder, ...props }, ref) => {
     const [id] = useId();
 
     return (
@@ -22,13 +22,12 @@ const InputField = forwardRef<HTMLInputElement, InputFieldProps>(
           </label>
         )}
 
-        {type === 'text-area' ? (
-          <textarea
+        {type === "text-area" ? (
+          <input
             className={`${className} transition duration-300 ease w-full border rounded-xl border-slate-700/40 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:border-blue-500`}
             placeholder={placeholder}
             rows={6}
             id={id}
-            ref={ref}
             {...props}
           />
         ) : (

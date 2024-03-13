@@ -4,7 +4,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { ChevronsRight } from "lucide-react";
 import InputField from "../components/form/inputFields/InputField";
-import CurrencyInputField from "./../components/form/inputFields/CurrrencyInputField";
 
 import { useMediaQuery } from "react-responsive";
 

@@ -48,7 +48,7 @@ const OtherInitiatives: React.FC<OrganizationalInitiativesProps> = ({
             </div>
           )}
         >
-          {myInitiatives.map((initiatives, index) => (
+          {myInitiatives.map((initiatives) => (
             <div
               key={initiatives.id}
               className="h-[70vh] box-shadow hover:scale-105 transition duration-300 ease-in-out md:mx-4 lg:mx-12 my-10 rounded-md "

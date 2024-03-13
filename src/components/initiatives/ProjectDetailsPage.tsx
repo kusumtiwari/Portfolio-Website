@@ -19,10 +19,8 @@ import {
   CheckSquare2,
   HandCoins,
   ChevronRight,
-  Divide,
   ArrowLeft,
   ArrowRight,
-  Triangle,
 } from "lucide-react";
 
 import { RiDoubleQuotesL } from "react-icons/ri";
@@ -969,7 +967,7 @@ const ProjectDetailsPage: React.FC = () => {
                   </div>
                 )}
               >
-                {selectedProject.testimonials.map((item, index) => (
+                {selectedProject.testimonials.map((item) => (
                   <div
                     className="px-6 py-6 flex flex-col md:flex-row w-[90%] box-shadow mx-4 md:mx-6 lg:mx-8 my-6 md:my-10"
                     key={item.id}
@@ -1022,7 +1020,7 @@ const ProjectDetailsPage: React.FC = () => {
                 )}
                 responsive={responsive}
               >
-                {selectedProject.testimonials.map((item, index) => (
+                {selectedProject.testimonials.map((item) => (
                   <div className="flex flex-col items-center mx-4 my-4">
                     <div className="py-4 md:py-10 px-4 md:px-8 flex justify-center box-shadow h-fit relative my-6 ">
                       <RiDoubleQuotesL className="w-6 h-6 text-primary-btnColor mb-4" />
@@ -1116,7 +1114,7 @@ const ProjectDetailsPage: React.FC = () => {
               )}
               responsive={responsive}
             >
-              {selectedProject.glimpses.map((item, index) => (
+              {selectedProject.glimpses.map((item) => (
                 <div className="h-[40vh] w-full my-6">
                   <img src={item.img} alt="glimpse" className="w-full h-full" />
                 </div>
